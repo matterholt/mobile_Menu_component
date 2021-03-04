@@ -1,0 +1,36 @@
+.App {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.link_href {
+  width: 100%;
+}
+.link_button {
+  border: none;
+  padding: 12px;
+  width: 100%;
+}
+.link_button:hover {
+  background-color: gray;
+}
+.link_button:active {
+  background-color: white;
+}
+.navMenu__button {
+  border: none;
+  font-size: 10;
+  height: 100%;
+  padding: 0 5px;
+  margin: 0;
+}
+
+.subMenu__item {
+  background-color: teal;
+}
